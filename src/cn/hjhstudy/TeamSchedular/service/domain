@@ -1,0 +1,30 @@
+
+NameListService
+- employees: Employee[]
++ NameListService()
++ getAllEmployees(): Employee[]
++ getEmployee(id: int) throws TeamException: Employee
+
+
+
+
+说明：
+employees用来保存所有公司员工对象
+NameListService()构造器：
+根据项目提供的Data类构建相应大小的employees数组
+再根据Data类中的数据构建不同的对象，包括Employee、Programmer、Designer和Architect对象，以及相关联的Eqipment子类的对象
+将对象存于数组中
+Data类位于com.atguigu.team.service包中
+
+
+
+
+说明：
+employees用来保存所有公司员工对象
+getAllEmployees ()方法：获取当前所有员工。
+返回：包含所有员工对象的数组
+getEmployee(id : int)方法：获取指定ID的员工对象。
+参数：指定员工的ID
+返回：指定员工对象
+异常：找不到指定的员工
+另外，可根据需要自行添加其他方法或重载构造器

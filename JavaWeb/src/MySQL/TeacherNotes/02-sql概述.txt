@@ -1,0 +1,7 @@
+SQL(Structural query language)语句分为以下三种类型：
+
+DML:  (数据操纵语言) : INSERT / DELETE / UPDATE / SELECT
+DDL:  (数据定义语言):  CREATE / ALTER / DROP / TRUNCATE / RENAME 
+DCL:  (数据控制语言):  COMMIT / ROLLBACK / GRANT / REVOKE / SAVEPOINT 
+
+
