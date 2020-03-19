@@ -1,3 +1,4 @@
+/*
 package Jdbc.Homework;
 
 import Jdbc.JDBCUtils;
@@ -7,12 +8,14 @@ import org.junit.Test;
 import java.lang.reflect.Field;
 import java.sql.*;
 
+*/
 /**
  * 针对Customers表的通用查询操作
  *
  * @author 黄佳豪
  * @create 2019-08-03-21:44
- */
+ *//*
+
 public class CustomersQueryTest {
     @Test
     public void testGetInstance() throws Exception {
@@ -53,12 +56,14 @@ public class CustomersQueryTest {
         return null;
     }
 
-    /**
+    */
+/**
      * ORM对象关联映射思想
      * 一个数据表 与 一个java类对应
      * 表中的一个列 与 java类的一个属性对应
      * 表中的一个行 与 java类的一个对象对应
-     */
+     *//*
+
     @Test
     public void testQueryByORM() throws Exception {
         Connection conn = JDBCUtils.getConnection();
@@ -81,3 +86,4 @@ public class CustomersQueryTest {
         }
     }
 }
+*/

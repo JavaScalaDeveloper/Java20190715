@@ -1,3 +1,4 @@
+/*
 package Jdbc.DAO;
 
 import Jdbc.JDBCUtils;
@@ -5,13 +6,15 @@ import org.junit.Test;
 
 import java.lang.reflect.Field;
 import java.sql.*;
-import java.util.ArrayList;
-import java.util.List;
+import java.mockutils.ArrayList;
+import java.mockutils.List;
 
+*/
 /**Database access Object
  * @author 黄佳豪
  * @create 2019-08-04-10:24
- */
+ *//*
+
 public class DAODemo1 {
     // 通用的查询，返回一条记录 （version 2.0:考虑到事务）
     public <T> List<T> getForList(Connection conn, Class<T> clazz, String sql, Object... args) {
@@ -142,3 +145,4 @@ public class DAODemo1 {
         }
     }
 }
+*/

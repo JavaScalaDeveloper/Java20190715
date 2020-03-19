@@ -9,16 +9,19 @@ import java.io.FileInputStream;
 import java.io.InputStream;
 import java.sql.Connection;
 import java.sql.SQLException;
+//import java.mockutils.Properties;
 import java.util.Properties;
 
 /**
  * @author 黄佳豪
  * @create 2019-08-04-16:01
  */
+
 public class DBCPTest {
-    /**
-     * 方式二
-     */
+/**
+     * 方式二*/
+
+
     @Test
     public void testGetConnection2() throws Exception {
         Properties pros = new Properties();
@@ -31,10 +34,11 @@ public class DBCPTest {
         Connection conn = source.getConnection();
         System.out.println(conn);
     }
-    /**
+/*
      * 方式一
-     * @throws SQLException
-     */
+     * @throws SQLException*/
+
+
     @Test
     public void testGetConnection1() throws SQLException {
         BasicDataSource source=new BasicDataSource();

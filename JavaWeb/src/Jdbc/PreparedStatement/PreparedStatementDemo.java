@@ -1,3 +1,4 @@
+/*
 package Jdbc.PreparedStatement;
 
 import java.sql.Connection;
@@ -9,6 +10,7 @@ import Jdbc.JDBCUtils;
 import org.junit.Test;
 
 
+*/
 /**
  * 使用PreparedStatement实现数据表中数据的增删改操作。
  *
@@ -16,7 +18,8 @@ import org.junit.Test;
  *
  * @author Administrator
  *
- */
+ *//*
+
 @SuppressWarnings("all")
 public class PreparedStatementDemo {
 
@@ -27,8 +30,10 @@ public class PreparedStatementDemo {
 		update(sql,36);
 
 
-     /*   String sql = "update `order` set order_name = ? where order_id = ?";//order为关键字，需要添加``
-        update(sql,"MM","4");*/
+     */
+/*   String sql = "update `order` set order_name = ? where order_id = ?";//order为关键字，需要添加``
+        update(sql,"MM","4");*//*
+
     }
 
     // 使用PreparedStatement实现通用的增、删、改操作。
@@ -159,3 +164,4 @@ public class PreparedStatementDemo {
     }
 
 }
+*/

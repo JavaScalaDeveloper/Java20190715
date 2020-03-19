@@ -1,3 +1,4 @@
+/*
 package Jdbc.PreparedStatement;
 
 import Jdbc.JDBCUtils;
@@ -9,12 +10,14 @@ import java.sql.Date;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 
+*/
 /**
  * 对order表操作
  *
  * @author 黄佳豪
  * @create 2019-08-03-16:25
- */
+ *//*
+
 public class OrderQuaryDemo {
     @Test
     public void test1() throws Exception {
@@ -28,10 +31,12 @@ public class OrderQuaryDemo {
         ResultSet i = ps.executeQuery();
         //处理结果集
         if (i.next()) {//判断指针下一个位置是否有数据，如果返回true则指针下移
-            /*int id = i.getInt(1);
+            */
+/*int id = i.getInt(1);
             String name = i.getString(2);
             String email = i.getString(3);
-            Date birth = i.getDate(4);*/
+            Date birth = i.getDate(4);*//*
+
             int orderId = i.getInt(1);
             String orderName=i.getString(2);
             Date orderDate=i.getDate(3);
@@ -45,3 +50,4 @@ public class OrderQuaryDemo {
         JDBCUtils.closeResource(coo,ps,i);
     }
 }
+*/

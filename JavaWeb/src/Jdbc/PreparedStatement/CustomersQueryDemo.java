@@ -1,3 +1,4 @@
+/*
 package Jdbc.PreparedStatement;
 
 import Jdbc.JDBCUtils;
@@ -7,10 +8,12 @@ import org.junit.Test;
 import java.lang.reflect.Field;
 import java.sql.*;
 
+*/
 /**针对Customers表操作
  * @author 黄佳豪
  * @create 2019-08-03-16:04
- */
+ *//*
+
 public class CustomersQueryDemo {
     @Test
     public void testGetInstance() throws Exception {
@@ -76,3 +79,4 @@ public class CustomersQueryDemo {
         JDBCUtils.closeResource(coo,ps,i);
     }
 }
+*/

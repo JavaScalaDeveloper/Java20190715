@@ -1,3 +1,4 @@
+/*
 package Jdbc.Homework;
 
 import Jdbc.JDBCUtils;
@@ -5,14 +6,16 @@ import Jdbc.JDBCUtils;
 import java.sql.Connection;
 import java.sql.Date;
 import java.sql.PreparedStatement;
-import java.util.Scanner;
+import java.mockutils.Scanner;
 
+*/
 /**
  * 练习1：从控制台向数据库的表customers中插入一条数据
  *
  * @author 黄佳豪
  * @create 2019-08-03-20:45
- */
+ *//*
+
 public class InsertByConsole {
     public static void main(String[] args) throws Exception {
         Scanner input = new Scanner(System.in);
@@ -44,3 +47,4 @@ public class InsertByConsole {
         JDBCUtils.closeResource(conn, ps);
     }
 }
+*/

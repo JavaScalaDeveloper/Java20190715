@@ -11,19 +11,19 @@ import java.sql.Driver;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 import java.util.Properties;
-import java.util.stream.Stream;
 
-/*
-@author 黄佳豪
-@create 2019-08-02-20:07
-*/
+/*@author 黄佳豪
+@create 2019-08-02-20:07*/
+
+
 public class MySQLConnection {
-    /**
+/**
      * 获取数据库连接需要如下准备：
      * 1.加载MySQL驱动
      *
-     * @throws SQLException
-     */
+     * @throws SQLException*/
+
+
     @Test
     public void test1() throws SQLException {
         Driver driver = new com.mysql.jdbc.Driver();//提供MySQL中实现接口Driver的类对象
@@ -38,14 +38,15 @@ public class MySQLConnection {
         System.out.println(conn);
     }
 
-    /**
-     * 利用反射获取连接
+
+/*     * 利用反射获取连接
      *
      * @throws ClassNotFoundException
      * @throws IllegalAccessException
      * @throws InstantiationException
-     * @throws SQLException
-     */
+     * @throws SQLException*/
+
+
     @Test
     public void test2() throws ClassNotFoundException, IllegalAccessException, InstantiationException, SQLException {
         String className = "com.mysql.jdbc.Driver";
@@ -62,14 +63,15 @@ public class MySQLConnection {
         System.out.println(conn);
     }
 
-    /**
+/**
      * 方式三：使用DriverManager
      *
      * @throws ClassNotFoundException
      * @throws IllegalAccessException
      * @throws InstantiationException
-     * @throws SQLException
-     */
+     * @throws SQLException*/
+
+
     @Test
     public void test3() throws ClassNotFoundException, IllegalAccessException, InstantiationException, SQLException {
         //通过反射提供驱动,先获取四个基本信息
@@ -87,9 +89,10 @@ public class MySQLConnection {
         System.out.println(conn);
     }
 
-    /**
-     * 将DriverManager简化
-     */
+/**
+     * 将DriverManager简化*/
+
+
     @Test
     public void test4() throws SQLException, ClassNotFoundException {
         //通过反射提供驱动,先获取四个基本信息
@@ -99,24 +102,26 @@ public class MySQLConnection {
         String password = "abc123";
         //创建驱动
         Class.forName(className);
-        /*Driver.class中找到了如下代码
+/*Driver.class中找到了如下代码
         static {
         try {
             DriverManager.registerDriver(new Driver());
         } catch (SQLException var1) {
             throw new RuntimeException("Can't register driver!");
         }
-        }
-         */
+        }*/
+
+
         //获取连接
         Connection conn = DriverManager.getConnection(url, user, password);
         System.out.println(conn);
     }
 
-    /**
+/**
      *通过配置文件jdbc.properties连接 ★推荐
      * 便于维护
      */
+
     @Test
     public void test5() throws IOException, SQLException, ClassNotFoundException {
         //加载文件

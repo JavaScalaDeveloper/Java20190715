@@ -1,3 +1,4 @@
+/*
 package Jdbc.Homework;
 
 import Jdbc.JDBCUtils;
@@ -9,10 +10,12 @@ import org.junit.Test;
 import java.sql.Connection;
 import java.sql.SQLException;
 
+*/
 /**
  * @author 黄佳豪
  * @create 2019-08-04-21:13
- */
+ *//*
+
 public class QueryRunnerTest {
 
     //查询表中的一条记录
@@ -26,9 +29,11 @@ public class QueryRunnerTest {
         System.out.println(query);
         JDBCUtils.closeResource(conn,null);
     }
-    /**
+    */
+/**
      * 简单的插入
-     */
+     *//*
+
     @Test
     public void testInsert() throws Exception {
         Connection conn=null;
@@ -44,3 +49,4 @@ public class QueryRunnerTest {
         JDBCUtils.closeResource(conn,null);
     }
 }
+*/

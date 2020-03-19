@@ -1,3 +1,4 @@
+/*
 package Jdbc.Homework;
 
 import Jdbc.JDBCUtils;
@@ -7,15 +8,19 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
 
+*/
 /**
  * @author 黄佳豪
  * @create 2019-08-04-20:37
- */
+ *//*
+
 public class TransactionTest {
-    /**
+    */
+/**
      * 转账事务操作
      *
-     */
+     *//*
+
     @Test
     public void testUpdateWithTx() {
         Connection conn=null;
@@ -41,9 +46,11 @@ public class TransactionTest {
             }
         }
     }
-    /**
+    */
+/**
      * 通用的增删改，影响事务
-     */
+     *//*
+
     public void updateWithTx(Connection conn, String sql, Object... args) {
         PreparedStatement ps=null;
         try {
@@ -57,10 +64,12 @@ public class TransactionTest {
             e.printStackTrace();
         }
     }
-    /**
+    */
+/**
      * 出错的转账方式
      * @throws Exception
-     */
+     *//*
+
     @Test
     public void testUpdate() throws Exception {
         String sql1 = "update user_table set balance=balance-100 where user=?";
@@ -89,3 +98,4 @@ public class TransactionTest {
         }
     }
 }
+*/

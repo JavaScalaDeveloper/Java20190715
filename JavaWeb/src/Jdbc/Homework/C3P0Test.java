@@ -1,3 +1,4 @@
+/*
 package Jdbc.Homework;
 
 import Jdbc.JDBCUtils;
@@ -8,10 +9,12 @@ import java.beans.PropertyVetoException;
 import java.sql.Connection;
 import java.sql.SQLException;
 
+*/
 /**
  * @author 黄佳豪
  * @create 2019-08-04-20:13
- */
+ *//*
+
 public class C3P0Test {
     //方式二：使用配置文件
     @Test
@@ -32,3 +35,4 @@ public class C3P0Test {
         cpds.close();//测试的时候关闭
     }
 }
+*/

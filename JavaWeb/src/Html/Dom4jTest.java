@@ -1,3 +1,4 @@
+/*
 package Html;
 
 import org.dom4j.Document;
@@ -5,12 +6,14 @@ import org.dom4j.DocumentException;
 import org.dom4j.Element;
 import org.dom4j.io.SAXReader;
 
-import java.util.List;
+import java.mockutils.List;
 
+*/
 /**
  * @author 黄佳豪
  * @create 2019-08-06-14:46
- */
+ *//*
+
 public class Dom4jTest {
     public static void main(String[] args) throws DocumentException {
         //创建解析对象
@@ -36,3 +39,4 @@ public class Dom4jTest {
         }
     }
 }
+*/

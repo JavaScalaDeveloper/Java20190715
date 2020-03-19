@@ -1,3 +1,4 @@
+/*
 package com.atguigu.connection;
 
 import java.beans.PropertyVetoException;
@@ -8,6 +9,7 @@ import org.junit.Test;
 
 import com.mchange.v2.c3p0.ComboPooledDataSource;
 
+*/
 /**
  * 1.实现数据库连接的方式：
  *  ① 手动实现的连接 （DriverManager)
@@ -24,7 +26,8 @@ import com.mchange.v2.c3p0.ComboPooledDataSource;
  *
  * @author Administrator
  *
- */
+ *//*
+
 public class C3P0Test {
 
     //方式二：使用配置文件
@@ -54,3 +57,4 @@ public class C3P0Test {
     }
 
 }
+*/

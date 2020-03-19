@@ -1,3 +1,4 @@
+/*
 package Jdbc.PreparedStatement;
 
 import java.lang.reflect.Field;
@@ -6,7 +7,7 @@ import java.sql.ResultSet;
 import java.sql.ResultSetMetaData;
 import java.sql.SQLException;
 import java.sql.Statement;
-import java.util.Scanner;
+import java.mockutils.Scanner;
 
 
 import Jdbc.JDBCUtils;
@@ -114,3 +115,4 @@ public class TestStatement {
 	}
 
 }
+*/

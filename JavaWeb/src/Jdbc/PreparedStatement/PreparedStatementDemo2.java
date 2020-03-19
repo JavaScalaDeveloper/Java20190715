@@ -1,3 +1,4 @@
+/*
 package Jdbc.PreparedStatement;
 
 import Jdbc.JDBCUtils;
@@ -7,15 +8,17 @@ import org.junit.Test;
 
 import java.lang.reflect.Field;
 import java.sql.*;
-import java.util.ArrayList;
-import java.util.List;
+import java.mockutils.ArrayList;
+import java.mockutils.List;
 
+*/
 /**
  * 针对于不同的表，使用PreparedStatement通用操作
  *
  * @author 黄佳豪
  * @create 2019-08-03-17:05
- */
+ *//*
+
 public class PreparedStatementDemo2 {
     @Test
     public void testGetForList() throws Exception {
@@ -24,11 +27,13 @@ public class PreparedStatementDemo2 {
         list.forEach(System.out::println);
     }
 
-    /**
+    */
+/**
      * 通用的查询，返回多条记录
      *
      * @throws Exception
-     */
+     *//*
+
     public <T> List<T> getForList(Class<T> clazz, String sql, Object... args) throws Exception {
         Connection coo = JDBCUtils.getConnection();
         List<T> list = new ArrayList<>();
@@ -65,7 +70,8 @@ public class PreparedStatementDemo2 {
         System.out.println(order);
     }
 
-    /**
+    */
+/**
      * 通用的查询，返回一条记录
      *
      * @param clazz
@@ -74,7 +80,8 @@ public class PreparedStatementDemo2 {
      * @param <T>
      * @return
      * @throws Exception
-     */
+     *//*
+
     public <T> T getInstance(Class<T> clazz, String sql, Object... args) throws Exception {
         Connection coo = JDBCUtils.getConnection();
         //预编译sql
@@ -100,3 +107,4 @@ public class PreparedStatementDemo2 {
         return null;
     }
 }
+*/

@@ -1,3 +1,4 @@
+/*
 package Jdbc.Homework;
 
 import Jdbc.JDBCUtils;
@@ -8,12 +9,14 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.ResultSetMetaData;
 
+*/
 /**
  * 演示通用的增删改查代码
  *
  * @author 黄佳豪
  * @create 2019-08-03-21:02
- */
+ *//*
+
 public class UniversalTest {
     public static void main(String[] args) throws Exception {
         UniversalTest u = new UniversalTest();
@@ -49,13 +52,15 @@ public class UniversalTest {
         return null;
     }
 
-    /**
+    */
+/**
      * 删除数据
      *
      * @param sql
      * @param args
      * @throws Exception
-     */
+     *//*
+
     public void delete(String sql, Object... args) throws Exception {
         //连接数据库
         Connection conn = JDBCUtils.getConnection();
@@ -70,3 +75,4 @@ public class UniversalTest {
         JDBCUtils.closeResource(conn, pr);
     }
 }
+*/

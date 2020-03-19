@@ -1,3 +1,4 @@
+/*
 package Jdbc.DAOEach;
 
 import Jdbc.JDBCUtils;
@@ -6,12 +7,14 @@ import org.junit.Test;
 
 import java.sql.Connection;
 import java.sql.Date;
-import java.util.List;
+import java.mockutils.List;
 
+*/
 /**
  * @author 黄佳豪
  * @create 2019-08-04-10:54
- */
+ *//*
+
 public class CustomerDAOTest {
     @Test
     public void testGetAll() throws Exception {
@@ -21,11 +24,13 @@ public class CustomerDAOTest {
         all.forEach(System.out::println);
         JDBCUtils.closeResource(conn,null);
     }
-    /**
+    */
+/**
      * 增
      *
      * @throws Exception
-     */
+     *//*
+
     @Test
     public void testGetOne() throws Exception {
         CustomerDAO dao = new CustomerDAO();
@@ -42,3 +47,4 @@ public class CustomerDAOTest {
         dao.addCustomer(conn, cust);
     }
 }
+*/

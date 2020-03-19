@@ -1,3 +1,4 @@
+/*
 package Jdbc.DBMatter;
 
 import Jdbc.JDBCUtils;
@@ -7,12 +8,14 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
 
+*/
 /**
  * 转账问题
  *
  * @author 黄佳豪
  * @create 2019-08-04-9:22
- */
+ *//*
+
 public class TransActionDemo {
     @Test
     public void testUpdate() throws Exception {
@@ -66,14 +69,16 @@ public class TransActionDemo {
         }
     }
 
-    /**
+    */
+/**
      * 更新2.0
      *
      * @param conn
      * @param sql
      * @param args
      * @throws Exception
-     */
+     *//*
+
     //通用的增删改 （version 2.0）
     public void updateWithTx(Connection conn ,String sql, Object... args) {
         PreparedStatement ps = null;
@@ -112,3 +117,4 @@ public class TransActionDemo {
         JDBCUtils.closeResource(conn, ps);
     }
 }
+*/

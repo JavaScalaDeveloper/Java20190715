@@ -1,3 +1,4 @@
+/*
 package Jdbc.DAOEach;
 
 import Jdbc.JDBCUtils;
@@ -8,13 +9,15 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.ResultSetMetaData;
-import java.util.ArrayList;
-import java.util.List;
+import java.mockutils.ArrayList;
+import java.mockutils.List;
 
+*/
 /**Database access Object
  * @author 黄佳豪
  * @create 2019-08-04-10:24
- */
+ *//*
+
 public class DAODemo1<T> {
     private Class<T> clazz=null;
     {
@@ -151,3 +154,4 @@ public class DAODemo1<T> {
         }
     }
 }
+*/

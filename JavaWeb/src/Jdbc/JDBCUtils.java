@@ -12,15 +12,16 @@ import java.io.InputStream;
 import java.sql.*;
 import java.util.Properties;
 
-/*
-@author 黄佳豪
-@create 2019-08-02-21:07
-*/
+/*@author 黄佳豪
+@create 2019-08-02-21:07*/
+
+
 @SuppressWarnings("all")
 public class JDBCUtils {
-    /*public static void main(String[] args) throws SQLException, IOException, ClassNotFoundException {
+public static void main(String[] args) throws SQLException, IOException, ClassNotFoundException {
         connection();
-    }*/
+    }
+
     public static Connection connection() throws IOException, SQLException, ClassNotFoundException {
         //加载文件
         Properties pros = new Properties();
